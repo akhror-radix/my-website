@@ -1,0 +1,62 @@
+.nav{
+    z-index: 2;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    width: 100%;
+}
+.nav ul li{
+    transition: .5s;
+    display: inline-block;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-weight: 600;
+
+}
+.nav ul li:hover{
+    font-size: 30px;
+}
+.navbar-icon{
+ 
+    display: flex;
+}
+ .navbar-icon i{
+    padding: 1.5rem;
+    margin: 1px;
+    background-color:  greenyellow;  
+}
+.navbar-icon i:hover{
+    background-color: black;
+    color: white;
+}
+h1{
+    font-family: 'Padauk', sans-serif;
+}
+.img{
+    background: url(hero_1.jpg)no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    
+}
+ header h2{
+    font-size: 120px;
+}
+.image{
+    background: url(logo.jpg) no-repeat center center/cover;
+    width: 300px;
+}
+box-1{
+ padding: 12rem;
+
+}
+button{
+    padding: 10px;
+    background: greenyellow;
+    color: white;
+    border-radius: 100%;
+}
